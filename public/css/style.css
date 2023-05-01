@@ -35,21 +35,21 @@
 }
 
 .card-body1 {
-    flex: 1 1 auto;
-    padding-top: 2.5rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;  
+  flex: 1 1 auto;
+  padding-top: 2.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;  
 }
 
 .img {
-    padding: 0rem;  
+  padding: 0rem;  
 }
 
 .contact .info-box {
   color: #444444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 27px;
 }
 
