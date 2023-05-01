@@ -8,15 +8,15 @@ $(document).ready(function() {
   var sore = ('Good Afternoon!');
   var malam = ('Good Evening!');
 
-if (jam >= 0 && jam < 11) {
-pesan = pagi; 
-} else if (jam >= 11 && jam < 15) {
-pesan = siang;
-} else if (jam >= 15 && jam < 18) {
-pesan = sore;
-} else if (jam >= 18) {
-pesan = malam;
-}
+  if (jam >= 0 && jam < 11) {
+      pesan = pagi; 
+  } else if (jam >= 11 && jam < 15) {
+      pesan = siang;
+  } else if (jam >= 15 && jam < 18) {
+      pesan = sore;
+  } else if (jam >= 18) {
+      pesan = malam;
+  }
   $('#ucapan').append(pesan);
   $('#jam').append(pukul);
   
