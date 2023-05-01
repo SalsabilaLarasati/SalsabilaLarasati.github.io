@@ -8,9 +8,9 @@ $(document).ready(function() {
   var sore = ('Good Afternoon!');
   var malam = ('Good Evening!');
 
-  if (jam >= 6 && jam < 10) {
+  if (jam >= 0 && jam < 11) {
 	pesan = pagi; 
-  } else if (jam >= 10 && jam < 15) {
+  } else if (jam >= 11 && jam < 15) {
 	pesan = siang;
   } else if (jam >= 15 && jam < 18) {
 	pesan = sore;
